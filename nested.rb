@@ -1,4 +1,4 @@
-require pry
+
 def hopper
 	programmer_hash =
  		{
@@ -37,7 +37,7 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
-	programmer_hash[:alan_kay][:known_for]binding.pry
+	programmer_hash[:alan_kay][:known_for] binding.pry
 end
 
 def dennis_ritchies_language
